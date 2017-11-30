@@ -173,25 +173,25 @@ public class menu extends javax.swing.JFrame {
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
 
-        // Instancear el jInternalFrame de esta manera, para que no se abra dos veces
-        Cursos Ingreso = new Cursos();
-
-        boolean mostrar = true;
-        for (int a = 0; a < escritorio.getComponentCount(); a++) {
-            if (Ingreso.getClass().isInstance(escritorio.getComponent(a))) {
-
-                mostrar = false;
-            }
-        }
-        if (mostrar) {
-            escritorio.add(Ingreso);
-            Ingreso.setVisible(true);
-
-            desktopSize = escritorio.getSize();                                       // Obtener el tamaño del escritorio
-            FrameSize = Ingreso.getSize();                                            //  Y del InternalFrame
-
-            Ingreso.setLocation((desktopSize.width - FrameSize.width) / 2, 5);   // Centrar el jInternalFrame al Desktop Pane
-        }
+//        // Instancear el jInternalFrame de esta manera, para que no se abra dos veces
+//        Cursos Ingreso = new Cursos();
+//
+//        boolean mostrar = true;
+//        for (int a = 0; a < escritorio.getComponentCount(); a++) {
+//            if (Ingreso.getClass().isInstance(escritorio.getComponent(a))) {
+//
+//                mostrar = false;
+//            }
+//        }
+//        if (mostrar) {
+//            escritorio.add(Ingreso);
+//            Ingreso.setVisible(true);
+//
+//            desktopSize = escritorio.getSize();                                       // Obtener el tamaño del escritorio
+//            FrameSize = Ingreso.getSize();                                            //  Y del InternalFrame
+//
+//            Ingreso.setLocation((desktopSize.width - FrameSize.width) / 2, 5);   // Centrar el jInternalFrame al Desktop Pane
+//        }
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
@@ -217,26 +217,26 @@ public class menu extends javax.swing.JFrame {
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
        
-       Nota_Logro Ingreso = new Nota_Logro();
-
-        boolean mostrar = true;
-        for (int a = 0; a < escritorio.getComponentCount(); a++) {
-            if (Ingreso.getClass().isInstance(escritorio.getComponent(a))) {
-
-                mostrar = false;
-            }
-        }
-        if (mostrar) {
-            escritorio.add(Ingreso);
-            Ingreso.setVisible(true);
-
-            desktopSize = escritorio.getSize();   
-            FrameSize = Ingreso.getSize();
-
-            Ingreso.setLocation((desktopSize.width - FrameSize.width) / 2, 0);    
-            Ingreso.setSize(FrameSize.width , desktopSize.height);
-            
-        }
+//       Nota_Logro Ingreso = new Nota_Logro();
+//
+//        boolean mostrar = true;
+//        for (int a = 0; a < escritorio.getComponentCount(); a++) {
+//            if (Ingreso.getClass().isInstance(escritorio.getComponent(a))) {
+//
+//                mostrar = false;
+//            }
+//        }
+//        if (mostrar) {
+//            escritorio.add(Ingreso);
+//            Ingreso.setVisible(true);
+//
+//            desktopSize = escritorio.getSize();   
+//            FrameSize = Ingreso.getSize();
+//
+//            Ingreso.setLocation((desktopSize.width - FrameSize.width) / 2, 0);    
+//            Ingreso.setSize(FrameSize.width , desktopSize.height);
+//            
+//        }
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     /**
