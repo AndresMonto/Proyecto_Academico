@@ -195,24 +195,24 @@ public class menu extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        Logros Ingreso = new Logros();
-
-        boolean mostrar = true;
-        for (int a = 0; a < escritorio.getComponentCount(); a++) {
-            if (Ingreso.getClass().isInstance(escritorio.getComponent(a))) {
-
-                mostrar = false;
-            }
-        }
-        if (mostrar) {
-            escritorio.add(Ingreso);
-            Ingreso.setVisible(true);
-
-            desktopSize = escritorio.getSize();
-            FrameSize = Ingreso.getSize();
-
-            Ingreso.setLocation((desktopSize.width - FrameSize.width) / 2, 5);
-        }
+//        Logros Ingreso = new Logros();
+//
+//        boolean mostrar = true;
+//        for (int a = 0; a < escritorio.getComponentCount(); a++) {
+//            if (Ingreso.getClass().isInstance(escritorio.getComponent(a))) {
+//
+//                mostrar = false;
+//            }
+//        }
+//        if (mostrar) {
+//            escritorio.add(Ingreso);
+//            Ingreso.setVisible(true);
+//
+//            desktopSize = escritorio.getSize();
+//            FrameSize = Ingreso.getSize();
+//
+//            Ingreso.setLocation((desktopSize.width - FrameSize.width) / 2, 5);
+//        }
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
